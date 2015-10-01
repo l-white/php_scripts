@@ -68,7 +68,11 @@ date_default_timezone_set("US/Central");
 
 echo date_default_timezone_get() . "\n";
 
-echo "The year is " . date("Y") . ".";
+echo "The year is " . date("Y") . "." . "\n";
+
+echo "Today is " . date("l") . "." . "\n";
+
+echo "The time is " . date("g") . ":" . date("i") . date("A") . "." . "\n";
 
 echo "\n";
 
