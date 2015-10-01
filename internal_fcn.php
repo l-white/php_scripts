@@ -46,8 +46,18 @@ for ($i = 1; $i <= 10; $i++) {
         $tails++;
       }
 }
-  echo "There were " . $heads . " heads and " . $tails . " tails."
+  echo "There were " . $heads . " heads and " . $tails . " tails.";
 
+echo "\n";
 
+// Calculate the area of a circle using the pi and round functions
 
- ?>
+$radius = 5;
+$power = 2;
+$area_circle = pi() * pow($radius, $power);
+
+echo "The area of the circle is " . round($area_circle, 2);
+
+echo "\n";
+
+?>
