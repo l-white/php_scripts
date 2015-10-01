@@ -107,12 +107,15 @@ for ($u = 1; $u <=10; $u++) {
 }
 echo "\n";
 
-// an odd for loop
+// an odd for loop for dot challenge
 
-for ($o = 1; $o <= 5; $o++) {
+for ($o = 1; $o <= 4; $o++) {
 for ($r = 1; $r <= $o; $r++) {
-  echo "3" . "\n" . " ";
+  echo "." . "\n" . " ";
 }
 }
+
+echo "\n";
+
 
 ?>
