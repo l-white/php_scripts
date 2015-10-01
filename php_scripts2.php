@@ -43,8 +43,8 @@ echo "\n";
 // print out even numbers from 1 - 10
 for ($i = 1; $i <= 10; $i++) {
   if ($i % 2 === 0) {
-	echo $i . "\n";
-}
+	   echo $i . "\n";
+   }
 }
 echo "\n";
 
