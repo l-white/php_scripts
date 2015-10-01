@@ -91,7 +91,28 @@ for ($k = 1; $k <= 100; $k++) {
   }
 }
 
+echo "\n";
 
+// inclusive -- num as string
 
+for ($m = 1; $m <=10; $m++) {
+  echo "7";
+}
+echo "\n";
+
+// as num -- same output
+
+for ($u = 1; $u <=10; $u++) {
+  echo 7;
+}
+echo "\n";
+
+// an odd for loop
+
+for ($o = 1; $o <= 5; $o++) {
+for ($r = 1; $r <= $o; $r++) {
+  echo "3" . "\n" . " ";
+}
+}
 
 ?>
