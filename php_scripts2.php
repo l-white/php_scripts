@@ -33,7 +33,7 @@ if ($userName === "Laura") {
 }
 echo "\n";
 
-// for loops
+// for loops -- uses incrementor
 
 // print out numbers from 1 - 10
 for ($i = 1; $i <= 10; $i++) {
@@ -41,7 +41,7 @@ for ($i = 1; $i <= 10; $i++) {
 }
 echo "\n";
 
-// print out even numbers from 1 - 10
+// print out even numbers from 1 - 10 -- adds condition
 for ($i = 1; $i <= 10; $i++) {
   if ($i % 2 === 0) {
 	   echo $i . "\n";
@@ -49,7 +49,14 @@ for ($i = 1; $i <= 10; $i++) {
 }
 echo "\n";
 
-// while loops
+for ($i = 1; $i <= 60; $i++) {
+  if ($i % 6 === 0) {
+    echo $i . "\n";
+  }
+}
+echo "\n";
+
+// while loops -- uses condition
 
 $i = 1;
 
@@ -59,5 +66,13 @@ while ($i <= 5) {
 }
 echo "\n";
 
+// while loop w/ and condition
+
+$j = 2;
+
+while ($j <= 10 && ($j % 2 === 0)) {
+    echo $j . "\n";
+      $j+=2;
+  }
 
 ?>
