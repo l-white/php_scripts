@@ -60,4 +60,16 @@ echo "The area of the circle is " . round($area_circle, 2);
 
 echo "\n";
 
+// Date functions
+
+// Setting default time ZMQContext
+
+date_default_timezone_set("US/Central");
+
+echo date_default_timezone_get() . "\n";
+
+echo "The year is " . date("Y") . ".";
+
+echo "\n";
+
 ?>
