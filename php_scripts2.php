@@ -51,4 +51,13 @@ echo "\n";
 
 // while loops
 
+$i = 1;
+
+while ($i <= 5) {
+  echo $i . "\n";
+    $i++;
+}
+echo "\n";
+
+
 ?>
