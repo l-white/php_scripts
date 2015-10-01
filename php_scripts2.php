@@ -75,4 +75,23 @@ while ($j <= 10 && ($j % 2 === 0)) {
       $j+=2;
   }
 
+// FIZZ BUZZ CHALLENGE
+
+for ($k = 1; $k <= 100; $k++) {
+  if ($k % 3 === 0) {
+    echo "FIZZ" . "\n";
+  }
+  if ($k % 5 === 0){
+    echo "BUZZ" . "\n";
+  }
+  if ($k % 3 === 0 && $k % 5 === 0) {
+    echo "FIZZ BUZZ" . "\n";
+  } else {
+    echo $k . "\n";
+  }
+}
+
+
+
+
 ?>
