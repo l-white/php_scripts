@@ -23,13 +23,23 @@ $string = "John,Sam,Billy,Karen,Ben,Jane";
 $newString = str_replace(",", ", ", $string);
 echo $newString;
 
+echo "\n";
+
 // How to randomize a string and rearrange characters
 
 $string = "basketball";
-
 $newString = str_shuffle($string);
-
 echo $newString;
+
+echo "\n";
+
+// Mission Impossible Challenge
+
+$string = "Rafher gung lbh orpbzr snzvyvne jvgu cuc shapgvbaf nf gurl ner rkgerzryl hfrshy";
+
+$decoded = str_rot13($string);
+
+echo $decoded;
 
 
  ?>
