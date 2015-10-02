@@ -85,7 +85,17 @@ $date = strtotime("1st January 2020");
 
 $seconds = $date - time();
 
-echo $seconds;
+$minutes = $seconds / 60;
+
+$hours = $minutes / 60;
+
+$days = $hours / 24;
+
+echo "There are " . round($days, 0) . " days until January 1, 2020." . "\n";
+
+echo "There are " . ceil($days) . " days until January 1, 2010.";
+
+echo "\n";
 
 
 ?>
