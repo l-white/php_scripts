@@ -76,4 +76,16 @@ echo "The time is " . date("g") . ":" . date("i") . date("A") . "." . "\n";
 
 echo "\n";
 
+// Time functions
+
+// What is the number of seconds until January 1, 2020?
+
+//Convert to seconds
+$date = strtotime("1st January 2020");
+
+$seconds = $date - time();
+
+echo $seconds;
+
+
 ?>
