@@ -80,7 +80,11 @@ echo "\n";
 
 // What is the number of seconds until January 1, 2020?
 
-//Convert to seconds
+/*
+Convert to seconds (called from time, which keeps track of # of sec. since 1970's)
+Other inputs for strtotime can include things like "next Friday" or 12/12/2054
+*/
+
 $date = strtotime("1st January 2020");
 
 $seconds = $date - time();
@@ -93,9 +97,18 @@ $days = $hours / 24;
 
 echo "There are " . round($days, 0) . " days until January 1, 2020." . "\n";
 
-echo "There are " . ceil($days) . " days until January 1, 2010.";
+echo "There are " . ceil($days) . " days until January 1, 2010." . "\n";
 
 echo "\n";
 
+echo time();
 
+// Calculate the number of days until Christmas
+
+$date = strtotime("25th December 2015");
+$seconds = $date - time();
+$minutes = $seconds / 60;
+$hours = $minutes / 60;
+$days = $hours / 24;
+echo "There are " . ceil($days) . " days until Christmas!";
 ?>
