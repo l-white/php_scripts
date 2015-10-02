@@ -25,7 +25,11 @@ echo $newString;
 
 // How to randomize a string and rearrange characters
 
+$string = "basketball";
 
+$newString = str_shuffle($string);
+
+echo $newString;
 
 
  ?>
